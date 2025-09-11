@@ -2,12 +2,10 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <!-- Важная мета-информация для корректного отображения на мобильных устройствах -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакты</title>
-    <!-- Подключение фавиконки -->
-    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../assets/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
     <header>
@@ -38,6 +36,34 @@
             <p class="phone_numbers">Наш Vk - https://vk.com/vk</br></p>
 
         </section>
+
+        <h1>Форма обратной связи</h1>
+        <form>
+            <label for = "username">Ваше имя</label>
+            <input type = "text" id = "username" name = "username">
+
+            <label for  = "phone">Ваш номер телефона:</label>
+            <input type="text" id = "phone" name = "phone">
+
+            <label for="email">Ваш email</label>
+            <input type="email" id = "email" name = "email">
+
+            <label for="course">Ваш курс</label>
+            <select id = "course" name = "course">
+                <option value =  "no">Не выбрано</option>
+                <option value="1">1 курс</option>
+                <option value = "2">2 курс</option>
+                <option value = "3">3 курс</option>
+                <option value="4">4 курс</option>
+                <option value="other">Другое</option>
+            </select>
+            
+            <label for="message">Ваше собщение</label>
+            <textarea id = "message" name = "message" rows = "6" ></textarea>
+
+            <button type="submit" id  = "submit">Отправить</button>
+            <button type="reset" id  = "reset">Очистить</button>
+        </form>
     </main>
 
 
