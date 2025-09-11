@@ -88,39 +88,69 @@ label {
 }
 
 input {
-  border: 3px solid green;
-  border-radius: 10px;
-  padding: 5px;
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    font-size: 14px;
 }
 
 input:focus{
-  background-color: aqua;
+  background-color: rgb(123, 123, 123);
 }
 
 button {
-  padding: 5px;
-  border: 3px solid rgb(167, 255, 251);
-  background-color: rgb(167, 255, 251);
-  border-radius: 10px;
-  font-family:'Times New Roman', Times, serif;
-  color:white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 button:hover{
-  background-color: rgb(255, 255, 255);
-  color: rgb(167, 255, 251);;
+  background-color: rgb(138, 138, 138);
+  color: rgb(0, 0, 0);;
 }
 
 #contactform{
-  border: 3px solid yellow;
-  border-radius: 10px;
-  background-color: aliceblue;
-  max-width: 250px;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
 }
 
 .error {
-  border: 3px red;
-  border-radius: 10px;
-  background-color: red;
-  color: black;
+  color: #e74c3c;
+  font-size: 12px;
+  margin-top: 5px;
+  padding: 8px 12px;
+  background: rgba(231, 76, 60, 0.1);
+  border: 1px solid #e74c3c;
+  border-radius: 6px;
+}
+
+#course{
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#message{
+      width: 100%;
+    min-height: 100px;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    font-size: 14px;
+    resize: vertical;
+    font-family: inherit;
 }
