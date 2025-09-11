@@ -110,3 +110,10 @@ button:hover{
   background-color: rgb(255, 255, 255);
   color: rgb(167, 255, 251);;
 }
+
+#contactform{
+  border: 3px solid yellow;
+  border-radius: 10px;
+  background-color: aliceblue;
+  max-width: 250px;
+}
