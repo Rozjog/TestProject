@@ -117,3 +117,10 @@ button:hover{
   background-color: aliceblue;
   max-width: 250px;
 }
+
+.error {
+  border: 3px red;
+  border-radius: 10px;
+  background-color: red;
+  color: black;
+}
